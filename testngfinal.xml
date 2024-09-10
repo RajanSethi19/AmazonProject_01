@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		 <class name="Utilities.listeneers_now"/>
+		 <class name="Utilities.Data_Driven"/>
+		 <class name="Utilities.Retry_Analyzer"/>
+      <class name="Amazon_Project_01.Edit_Information_Testcase"/>
+      <class name="Amazon_Project_01.Checkout_process_Testcase"/>
+      <class name="Amazon_Project_01.CoupanCode_Apply"/>
+      <class name="Amazon_Project_01.Registration_Testcase"/>
+      <class name="Amazon_Project_01.Your_Order_Testcase"/>
+      <class name="Amazon_Project_01.Search_Shoe"/>
+      <class name="Amazon_Project_01.Each_Payment_Method_Testcase"/>
+      <class name="Amazon_Project_01.Removeitemfrom_cart_Testcase"/>
+      <class name="Amazon_Project_01.Product_details_Testcase"/>
+      <class name="Amazon_Project_01.Cart_Without_Login_Testcase"/>
+      <class name="Amazon_Project_01.AddToCart_Testcase"/>
+      <class name="Amazon_Project_01.Login_With_Invalid_Cred_Testcase"/>
+      <class name="Amazon_Project_01.Data_Driven_Login_testcase"/>
+      <class name="Amazon_Project_01.Login_With_Valid_Cred_Testcase"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
